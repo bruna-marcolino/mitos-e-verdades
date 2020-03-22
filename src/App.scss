@@ -1,0 +1,63 @@
+$primary: #EDBF28;
+$secondary: #A7D9D4;
+$background: #FBFAC8;
+$default-spacing: 40px;
+
+html, body {
+  height: 100vh;
+}
+
+body {
+  background-color: $background;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.questions-number {
+  color: $secondary;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed $secondary;
+}
+
+.header {
+  text-align: center;
+  padding: $default-spacing 0 60px;
+
+  &__logo {
+    width: 80px;
+  }
+}
+
+.title {
+  color: #EDBF28;
+  font-size: 30px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: $default-spacing;
+  width: 90%;
+}
+
+.btn {
+  width: 47%;
+  border: none;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #FFF;
+  font-weight: 700;
+}
+
+.btn--primary {
+  background-color: $primary;
+}
+
+.btn--secondary {
+  background-color: $secondary;
+}
